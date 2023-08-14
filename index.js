@@ -58,14 +58,3 @@ function calculatePayroll(employees) {
     const totalPayroll = employees.reduce((total, employee) => total + allWagesFor(employee), 0);
     return totalPayroll;
 }
-
-module.exports = {
-    createEmployeeRecord,
-    createEmployeeRecords,
-    createTimeInEvent,
-    createTimeOutEvent,
-    hoursWorkedOnDate,
-    wagesEarnedOnDate,
-    allWagesFor,
-    calculatePayroll
-};
